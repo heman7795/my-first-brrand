@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="row">
+     
+      <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <a class="navbar-brand" href="#">NEW ARRIVALS</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ">
+              <li class="nav-item ">
+                <a class="nav-link" href="#">FEATURED</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">BEST SELLING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ON SALES</a>
+              </li>
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item padd ">
+                  <img
+                  width="20"
+                  alt="Search"
+                  src="/assets/Web/.png"
+                />
+                </li>
+                <li class="nav-item padd">
+                  <img
+                  width="20"
+                  alt="Profile"
+                  src="/assets/Web/.png"
+                />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+  
+    </div>
+    <div class="row">
+    <div class="col-md-3" *ngFor="let item of catogries" >
+      <div class="card" style="width: 15rem;">
+        <img class="card-img-top" [src]=item.url alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text text-center"><b>{{item.title}}</b></p>
+          <span class="cardbott nav-link disabled text-center">{{item.total}}</span>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+  
+  </div>

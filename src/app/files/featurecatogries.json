@@ -1,0 +1,13 @@
+{
+    "data":[{"url" : "/assets/Web/Men.png", "title" : "MEN","total":"22 items"},
+    {"url" : "/assets/Web/women.png", "title" : "WOMEN","total":"30 items"},
+    {"url" : "/assets/Web/bags.png", "title" : "BAGS","total":"50 items"},
+    {"url" : "/assets/Web/Watch.png", "title" : "ACCESSORIES","total":"40 items"},
+    {"url" : "/assets/Web/qwsd.png", "title" : "WATCH","total":"60 items"},
+    {"url" : "/assets/Web/women.png", "title" : "WOMEN","total":"80 items"}
+    ],
+    "second":[{"url" : "/assets/Web/Image6.png", "title" : "SCHOOL BAG","total":"$ 56.99"},{"url" : "/assets/Web/Image7.png", "title" : "TRAVEL BAG","total":"$65.99"}]
+
+    
+
+}
