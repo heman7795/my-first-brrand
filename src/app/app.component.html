@@ -4,7 +4,7 @@
     <img
     width="90"
     alt="Angular Logo"
-    [src]=logo
+    src="/assets/Web/Loghyo.png"
   />
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -82,8 +82,8 @@
             <div class="row">
               <div class="col-md-8"> 
                 <div class="topmar">
-                <h5>Top Sell This Month</h5>
-                <h1>Watch Collections</h1>
+                <h5>{{banner.title}}</h5>
+                <h1>{{banner.subtitle}}</h1>
                 <button type="button" class="btn btn-info btn-sm">Show More</button>
               </div>
               </div>
@@ -91,49 +91,43 @@
                 One of three columns
               </div> -->
               <div class="col-md-4">
-                <img src="/assets/Web/Image1 .png"  width="500" height="500" alt="Watch">
+                <img [src]=banner.bannerurl  width="500" height="500" alt="Watch">
               </div>
             </div>
           </div>
         
       </div>
       <div class="carousel-item">
-        <div class="container">
-
-          <div class="row">
-            <div class="col-md-8"> 
-              <div class="topmar">
-              <h5>Top Sell This Month</h5>
-              <h1>Watch Collections</h1>
-              <button type="button" class="btn btn-info btn-sm">Show More</button>
-            </div>
-            </div>
-            <!-- <div class="col-sm">
-              One of three columns
-            </div> -->
-            <div class="col-md-4">
-              <img src="/assets/Web/Image1 .png"  width="500" height="500" alt="Watch">
-            </div>
+        <div class="row">
+          <div class="col-md-8"> 
+            <div class="topmar">
+            <h5>{{banner.title}}</h5>
+            <h1>{{banner.subtitle}}</h1>
+            <button type="button" class="btn btn-info btn-sm">Show More</button>
+          </div>
+          </div>
+          <!-- <div class="col-sm">
+            One of three columns
+          </div> -->
+          <div class="col-md-4">
+            <img [src]=banner.bannerurl  width="500" height="500" alt="Watch">
           </div>
         </div>
       </div>
       <div class="carousel-item" >
-        <div class="container">
-
-          <div class="row">
-            <div class="col-md-8"> 
-              <div class="topmar">
-              <h5>Top Sell This Month</h5>
-              <h1>Watch Collections</h1>
-              <button type="button" class="btn btn-info btn-sm">Show More</button>
-            </div>
-            </div>
-            <!-- <div class="col-sm">
-              One of three columns
-            </div> -->
-            <div class="col-md-4">
-              <img src="/assets/Web/Image1 .png"  width="500" height="500" alt="Watch">
-            </div>
+        <div class="row">
+          <div class="col-md-8"> 
+            <div class="topmar">
+            <h5>{{banner.title}}</h5>
+            <h1>{{banner.subtitle}}</h1>
+            <button type="button" class="btn btn-info btn-sm">Show More</button>
+          </div>
+          </div>
+          <!-- <div class="col-sm">
+            One of three columns
+          </div> -->
+          <div class="col-md-4">
+            <img [src]=banner.bannerurl  width="500" height="500" alt="Watch">
           </div>
         </div>
       </div>

@@ -8,15 +8,12 @@ import carosel from './files/home.json';
 export class AppComponent {
   title = 'Brand';
   public countryList:{logo:string, code:string}[] = carosel;
-  logo: any;
+  banner: any;
 
 
   constructor(){}
   ngOnInit(){
     console.log(carosel);
-    for (let i = 0; i < carosel.length; i++) {
-      const element = carosel[i];
-      this.logo=element.logourl
-    }
+    this.banner=carosel 
   }
 }
