@@ -7,7 +7,7 @@ import carosel from './files/home.json';
 })
 export class AppComponent {
   title = 'Brand';
-  public countryList:{logo:string, code:string}[] = carosel;
+  // public countryList:{logo:string, code:string}[] = carosel;
   banner: any;
 
 
